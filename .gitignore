@@ -6,12 +6,14 @@
 # Keep only the final report and reproducible evaluation evidence
 outputs/*
 !outputs/FULL_REPORT_FINAL_WITH_EVALUATION.docx
+!outputs/DEEPGUARD_FULL_CODE_ARCHITECTURE_GUIDE.docx
 !outputs/evaluation/
 !outputs/evaluation/**
 
 # Keep only the report builder and presentation-ready evaluation figures
 work/*
 !work/add_evaluation_to_report.py
+!work/build_code_architecture_guide.py
 !work/evaluation_assets/
 !work/evaluation_assets/**
 

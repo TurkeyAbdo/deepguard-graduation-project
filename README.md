@@ -8,9 +8,11 @@ DeepGuard is a local-first research prototype for deepfake detection and active 
 
 - `deepguard/`: React, TypeScript, MediaPipe, Transformers.js, FastAPI, and SQLite application source.
 - `outputs/FULL_REPORT_FINAL_WITH_EVALUATION.docx`: Complete graduation-project report with Chapters 4 and 5.
+- `outputs/DEEPGUARD_FULL_CODE_ARCHITECTURE_GUIDE.docx`: Full 76-page architecture manual with diagrams, algorithms, APIs, tests, deployment guidance, and complete first-party source listings.
 - `outputs/evaluation/`: Reproducible controlled-trial CSV and JSON evidence.
 - `work/evaluation_assets/`: Confusion matrix, latency, resource charts, and interface screenshots.
 - `work/add_evaluation_to_report.py`: Reproducible Word report update script.
+- `work/build_code_architecture_guide.py`: Reproducible architecture-manual and diagram builder.
 
 ## Run the system
 
