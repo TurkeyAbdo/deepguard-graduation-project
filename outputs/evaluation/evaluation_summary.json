@@ -1,0 +1,37 @@
+{
+  "metrics": {
+    "sample_size": 11,
+    "physical_camera_trials": 8,
+    "virtual_camera_trials": 3,
+    "excluded_unlabelled_sessions": 10,
+    "excluded_hardcoded_simulations": 6,
+    "true_positive": 3,
+    "true_negative": 7,
+    "false_positive": 0,
+    "false_negative": 0,
+    "manual_review": 1,
+    "auto_decision_coverage": 0.9090909090909091,
+    "covered_case_accuracy": 1.0,
+    "overall_correct_rate_including_review": 0.9090909090909091,
+    "precision": 1.0,
+    "recall": 1.0,
+    "specificity": 1.0,
+    "f1_score": 1.0,
+    "latency_ms": {
+      "mean": 14647.09090909091,
+      "median": 14731,
+      "minimum": 8529,
+      "maximum": 22665
+    },
+    "mean_quality": 0.7778126847011052,
+    "mean_texture_risk": 0.5077594518661499
+  },
+  "resources": {
+    "server_idle_memory_mib": 25.7,
+    "api_mean_response_ms": 11.0,
+    "sqlite_size_kib": 32.0,
+    "static_package_mib": 59.45469093322754,
+    "inference_location": "client browser",
+    "server_payload": "numeric JSON metadata only"
+  }
+}
